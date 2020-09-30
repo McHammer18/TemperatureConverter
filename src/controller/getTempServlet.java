@@ -35,7 +35,7 @@ public class getTempServlet extends HttpServlet {
 		
 		request.setAttribute("userThermometer", userConvert);
 		
-		getServletContext().getRequestDispatcher("/result.jsp").forward(request, response);
+		getServletContext().getRequestDispatcher("/results.jsp").forward(request, response);
 		
 		//PrintWriter writer = response.getWriter();
 		//writer.println(userConvert.toString());

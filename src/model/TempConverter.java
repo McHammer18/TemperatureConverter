@@ -30,8 +30,8 @@ public class TempConverter {
 		final double fraction = .55;
 		 double temp;
 		 double d = new Double(tempf);
-		this.tempc = temp = (d - Celcius) * fraction;
-		
+		 temp =(d - Celcius) * fraction;
+		 setTempc(temp);
 	}
 	
 	@Override
